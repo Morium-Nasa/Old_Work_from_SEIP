@@ -1,0 +1,220 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ .main{
+	background-color: white; 
+	width: 100%;
+	border-bottom: 2px solid #ddd;
+	height: 55px;
+	overflow: hidden;
+}
+
+.top{
+
+	color: silver;
+	background-color: white;
+	width: 90%;
+
+
+}
+.top ul{
+	list-style: none;
+	margin-top: 10px;
+
+
+}
+.top ul li{
+	float: right;
+	background-color:
+	
+}
+.top ul li a{
+	text-decoration: none;
+	border-left: 1px solid silver;
+	padding: 12px;
+	color: black;
+	font-size: 12px;
+
+}
+
+ .fa-user{ 
+ 	color: #9acb3b; 
+ }
+
+.top ul li a:hover>.fa-user, .top ul li a:hover{
+	background-color: #9acb3b;
+	color: white !important;
+}
+
+.top ul li a i{
+	padding: 4px;
+}
+
+.top ul li a i:hover{
+	color: #9acb3b;
+}
+
+
+.head{
+	width: 100%;
+
+}
+.mainhead{width:80%;
+		height: 100px;
+		overflow: hidden;
+		margin: auto;
+		
+}
+.left{width:28%;
+	
+	float: left;
+}
+.button{
+	padding: 8px 10px;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 4px;
+	background-color: #9acb3b;
+	margin-top: 20px;
+	font-style: italic;
+	box-shadow: 3px 3px;
+}
+
+.right{width: 67%;
+	float: right;
+	margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 15px;
+  font-size: 15px;
+  border: 2px solid #e1e1e1;
+  float: left;
+  width: 85%;
+  background: #ffffff;
+  color:black;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 15px;
+  background: linear-gradient(#ffffff, #e1e1e1);
+  color: white;
+  font-size: 17px;
+  border: 1px solid #e1e1e1;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.example button:hover {
+	background: #9acb3b;
+}
+
+
+#firstm li{
+	border: 1px solid gray;
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+a{
+	font-size: 15px;
+}
+#home{
+	color: white;
+}
+#manuse li{
+	border-right: 1px dotted gray;
+}
+#manuse a{
+	font-size: 13px;
+
+}
+
+#manuse i{
+	padding-right: 4px;
+
+}
+#manuse img{
+	padding-left: 4px;
+
+}
+
+#star1{
+	width: 125px;
+	height: 40px;
+	position: relative;
+	background-color: green;
+	color: white;	
+}
+
+.container{
+	padding-left: 0px !important;
+
+}
+
+.container3{
+	
+	border: 1px solid black;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#star1 i{
+	padding-right: 5px;
+	padding-left: 4px;
+}
+
+ span::after{
+	content: '';
+	width: 20px;
+	height: 20px;
+	background-color:green;
+	position: absolute;
+	top:30px;
+	left:25px;
+	transform: rotate(45deg);
+	
+}
+
+
+#star1{
+	border:1px solid gray;
+	margin-top: 3px;
+	border-top: 2px solid green;
+}
+.text{
+		background-color:#ebebeb;
+		padding: 10px;
+		margin-bottom: 10px;
+		
+	}
+
+	.text img{
+		height: 80px;
+		transition: 2s
+	}
+
+	.text img:hover{
+		transform:scale(1.2);
+	}
+
+	#colort{
+		color: #28a745;
+	}
+	.icon a img{
+		background-color: white;
+		border-radius: 4px;
+	}
+
+	.container2{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
