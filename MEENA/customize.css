@@ -1,0 +1,9 @@
+.row,.col-4,.col-8,.col-12, .navbar{ margin:0px !important; padding:0px !important;}
+
+.container{ border:1px solid red; padding:0px !important;}
+
+.banner{ background: #ebf5fb ;}
+
+.banner img{ max-height:120px;}
+
+.nav-link { border-right:1px solid red; background:#d7bde2;}
