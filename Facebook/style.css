@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+body{}
+
+.contain{
+	width:100%;
+	background-color:  #21618c;
+	display: block;
+}
+
+.header{
+	height: 60px;
+	width: 100%;
+}
+
+.header-left{
+	float: left;
+	width: 250px;
+	padding: 20px;
+}
+.header-left h1{
+	color: white;
+	padding: 0px;
+	font-size: 25px;
+	margin-left: 200px;
+}
+.heder-right{
+	float: right;
+	width:249px;
+
+}
+
+.header-right ul{
+	list-style: none;
+	position: relative;
+}
+
+.header-right ul li{
+	padding: 20px;
+	float: right;
+}
+
+.contain1{
+	width: 100%;
+	background-color:#d4e6f1;
+	color: white;
+	display: block;
+	margin-top: 10px;
+	height: 500px;
+}
+
+.contain-left{
+	float: left;
+	width: 50%;
+}
+
+.pera{
+	float: left;
+	margin-top: 30px;
+	
+}
+
+img{
+	float: left;
+}
+
+h1{
+	float: left;
+	color: black;
+}
+.contain-right{
+	float: right;
+	height: 100px;
+	width:30%;
+}
+
+.pera1{
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: -145px;
+	color: black;
+}
+
+.pera1 p{
+	color: black;
+	font-size: 30px;
+}
+
+.pera2{
+	float: left;
+	width:188px;
+	margin-left: -146px;
+
+}
+
+.pera2 ul{
+	list-style: none;
+	position: relative;
+	font-size: 10px;
+	border-radius: 4px;
+}
+
+.pera2 ul li{
+	padding: 20px;
+	float: right;
+	}
+h2{
+	color: gray;
+}	
+.pera3{
+	margin-top: 285px;
+	margin-right: 0px;
+	margin-left: -145px;
+	color: black;
+}
+p{
+	font-size: 11px;
+	color: gray;
+	margin-right: 224px;
+}
+.pera4{
+	margin-top: 12px;
+	margin-left: -145px;
+}
+
+.pera5{
+	margin-top: 12px;
+	margin-left: -145px;
+	color: gray;
+}
+
+
+.footer1{
+	width: 100%;
+	background-color:white;
+	display: block;
+	margin-top: 10px;
+	height: 75px;
+	text-align: center;
+	margin-top: 0px;
+	}
+
+.footer2{
+	width: 100%;
+	background-color:white;
+	display: block;
+	margin-top: 10px;
+	height: 75px;
+	text-align: center;
+	margin-top: -41px;
+	}
