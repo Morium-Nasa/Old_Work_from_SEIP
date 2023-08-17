@@ -1,0 +1,60 @@
+
+	*{
+		margin:0px;
+		padding: 0px;
+	}
+	body{
+		
+		padding: 20px;
+
+
+	}
+	
+	}
+	.video{
+		float: left;
+		width: 200px;
+	}
+	img{
+		width:100%;
+		
+	}
+
+	.videos{
+		margin-top: 10px;
+		display: grid;
+		grid-template-columns: repeat(5,1fr);
+		grid-gap: 10px;
+	}
+	.text-right i{
+		margin-left: 20px;
+	}
+	li{
+		list-style: none;
+	}
+	.sub ul li i{
+		font-size: 20px;
+		margin-right: 20px;
+	}
+
+	.sub li{
+		line-height: 40px;
+	}
+
+	.active,.sub li a:hover{
+		color: red;
+	}
+	a{
+		color:gray;
+		
+
+
+	}
+	video{
+		width: 100%;
+	}
+	small{
+		font-weight: bold;
+		color: #808080;
+	}
+
