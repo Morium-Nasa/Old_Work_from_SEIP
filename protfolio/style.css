@@ -1,0 +1,147 @@
+body{
+	background: url('img/123.jpg');
+}
+
+#mynav:before{
+border-right-color: #005580;
+    border-left-color: #005580;
+}
+
+#mynav a{
+	color: white;
+	margin-right: 10px;
+}
+
+#mynav a:hover{
+	color: white;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	font-weight: bold;
+}
+
+.active a{
+	
+	color:black;
+	border-bottom: 2px solid  white;
+	border-top: 2px solid  white;
+	font-weight: bold;
+}
+
+/*skills*/
+
+.skill_name 
+{
+ padding-left:10px;
+ width:90px;
+ height:10px;
+ line-height:10px;
+ font-weight:bold;
+ font-size:10px;
+ color:white;
+ clear:both;
+ float:left;
+ border-radius:3px 0px 0px 3px;
+}
+#skill_html
+{
+  background-color: #0e0e0e;
+}
+#skill_css
+{
+ background-color:#0e0e0e;
+}
+#skill_bot
+{
+ background-color:#0e0e0e;
+}
+#skill_java
+{
+ background-color:#0e0e0e;
+}
+#skill_jq
+{
+ background-color:#0e0e0e;
+}
+
+.skillbar_wrapper 
+{
+ float:left;
+ position:relative;
+ display:block;
+ margin-bottom:25px;
+ width:400px;
+ background-color:#E6E6E6;
+ height:10px;
+ border-radius:0px 3px 3px 0px;
+}
+.skillbar_bar 
+{
+ height:10px;
+ width:0px;
+ border-radius:0px 3px 3px 0px;
+}
+#skillbar_html
+{
+  background-image: url('img/58530.jpg'); /*#3c3c3c;*/
+}
+#skillbar_css
+{
+ background-image: url('img/58530.jpg');
+}
+#skillbar_bot
+{
+ background-image: url('img/58530.jpg');
+}
+#skillbar_java
+{
+ background-image: url('img/58530.jpg');
+}
+#skillbar_jq
+{
+ background-image: url('img/58530.jpg');
+}
+
+.skill_bar_percent 
+{
+ position:absolute;
+ right:10px;
+ top:0;
+ font-size:12px;
+ height:10px;
+ line-height:10px;
+ color:black;
+}
+
+/*.list_personal_social:{
+	border-right-color: #005580;
+    border-left-color: #005580;
+
+}
+
+.list_personal_social a{
+	color: white;
+	margin-right: 10px;
+
+}
+.list_personal_social a:hover{
+	color: yellow;
+	border-bottom: 2px solid yellow;
+	border-top: 2px solid yellow;
+	font-weight: bold;
+}
+
+/* Home Banner Area css
+	============================================================================================ */
+	/*.home_banner_area {
+		min-height: 728px;
+		margin-bottom: 120px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 650px;
+	}
+	.header_area .navbar .nav .nav-item.submenu ul {
+		left: auto;
+		right: 0px;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */

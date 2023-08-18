@@ -1,0 +1,102 @@
+*{ margin:0px;
+   padding: 0px;
+   font-family: times new roman;
+ }
+
+ body{ background-color: white; }
+
+ .main1{ 
+ 	width:60%;
+ 	height: 520px;
+ 	margin: auto;
+ 	margin-top: 100px;
+ 	border: 2px solid green; 
+
+ }
+
+ .main2{
+ 	width:99%;
+ 	height: 510px;
+ 	border:2px solid red;
+ 	margin:auto;
+ 	margin-top: 3px;
+ }
+
+  .main3{
+ 	width:99%;
+ 	height: 500px;
+ 	border:2px solid green;
+ 	margin:auto;
+ 	margin-top: 3px;
+ }
+
+ .head{
+ 	width:100%;
+ 	margin-top: 5px;
+ 	float: left;
+ 	overflow: hidden;
+ 	margin-left: 20px;
+ }
+ .lefth{width:20%;
+ 	overflow: hidden;
+ 	float: left;
+ 	padding-top: 30px;
+ 	
+ }
+ 
+ .righth{width: 38%;
+ 		overflow: hidden;
+ 		margin: auto;
+
+ }
+.righth img{width: 90px;
+			height: 90px;
+			margin-bottom: 30px;
+}
+
+
+.mid{width:100%;
+ 	margin-top: 5px;
+ 	float: left;
+ 	overflow: hidden;
+ 	
+ 	margin: auto;
+ }
+
+.leftmid{
+	width: 65%;
+	margin-left: 100px;
+	float: left;
+}
+.leftmid h3{ 
+	text-align: center; 
+	font-size: 15px; 
+
+}
+.rightmid{
+	width: 20%;
+    float: right;
+overflow: hidden;}
+
+.rightmid img{
+	width:120px; 
+	height: 155px;
+	
+	margin-bottom: 30px;
+}
+
+.last p{text-align: justify;
+padding: 5px;
+}
+.watermark{
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	color: black;
+	opacity: .1;
+	
+	transform: rotate(-44deg);
+	top: 440px;
+	right: 484px;
+
+}
