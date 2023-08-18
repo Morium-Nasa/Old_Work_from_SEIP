@@ -1,0 +1,78 @@
+body{background:url(images/bgimage.jpg)repeat fixed;
+margin-top:10px}
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+strong{font-size:65px;float:right;margin-top:50px;padding-right:50px}
+.head{background-color:#F5F5F7;padding:0px 10px;border:25px solid #ffffff;border-radius:20px}
+.head img{margin:10px 0px}
+
+.navbar {background-color:rgba(195, 197, 200, 1)}
+.navbar ul.nav > li > a{font-family:arial;font-size:16px;color:#000000}
+
+.navbar ul.nav > li > a{
+  border-right:1px solid #F5F5F5
+}
+.navbar ul.nav > li > a:hover {
+  background-color: #38a7bb;
+  border-right:1px solid
+}
+.social{width:220px;margin:10px 0px;float:right}
+.social a {
+  color: #00000;
+  margin-top:10px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: bottom;
+}
+.social a:hover {
+  color: #fff;
+}
+.social a:hover.facebook {
+  background-color: #4460ae;
+}
+.social a:hover.gplus {
+  background-color: #c21f25;
+}
+.social a:hover.twitter {
+  background-color: #3cf;
+}
+.social a:hover.instagram {
+  background-color: #cd4378;
+}
+.universal{background-color:#F5F5F5;padding:0px 10px;border:25px solid #ffffff;border-radius:20px;margin-top:20px;}
+.heading{font-weight:bold;
+		font-style:italic;
+		font-size:30px;
+		text-transform:uppercase;
+		}
+.bold{font-size:18px;font-weight:bold;font-style:italic;background-color:#4285F4;color:white;padding-left:5px}
+.pera{text-align:justify;font-size:16px;}
+.products p{font-size:18px;text-align:justify;}
+.products h2{margin:0 0 !important;font-style:italic}
+table{border:2px solid purple;
+border-radius:4px;
+overflow:scroll!important}
+.otherpages{font-size:20px;
+font-weight:bold;}
+.otherpages a{font-style:none;color:RED;font-weight:bold}
+span{font-size:14px;}
+.products img{float:left;height:90px;width:120px;padding-right:5px;margin-right:10px}
+.name{padding-bottom:15px;clear:both}
+ul{padding:0 0;
+margin:0 0;}
+.list-style-none{list-style:none;font-size:18px;}
+.m_name{font-family:arial;font-size:22px;}
+.m_degree{font-style:italic;font-size:12px;}
+.m_deignation{font-size:12px;}
+.management{border-left:5px solid #48BFEF;padding-left:25px;}
+footer{margin-top:20px;color:white;padding:5px 5px;}
+.footer_menu ul li{padding-left:10px;border-right:2px solid black}
+.footer_menu ul li{display:inline;padding-right:5px;}
+.footer_menu ul li a{text-decoration:none;}
