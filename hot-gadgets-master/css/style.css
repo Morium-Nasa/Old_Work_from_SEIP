@@ -1,0 +1,89 @@
+#logo{
+    height: 50px;
+}
+.buy-now{
+    border: none;
+    background: black;
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.slide{
+    padding: 20px 40px;
+    background: #FEEAE9;
+}
+.mobile{
+    margin: 5% 0;
+}
+.card{
+    border: none;
+    box-shadow: 9px 9px 11px;
+    border-radius: 11px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:orange;
+  
+}
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: red;
+
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: no-repeat 50%/50% 100% rgba(243, 156, 18,.70);
+    color: #fff;
+    border-radius: 50%;
+    display: none;
+}
+.carousel :hover .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* very improtant  part*/
+.categorie{
+    margin-bottom: 5%;
+}
+.categorie h2{
+    border-bottom: 10px solid orange ;
+    margin: auto;
+    width: 155px;
+    border-radius: 5%;
+    padding-bottom: 10px;
+}
+span.cate{
+    border: 1px solid orange;
+    width: 9%;
+    height: 7px;
+    border-radius: 15 px;
+    display: inline-block;
+    background-color: orange;
+}
+.cate-bg{
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 20px;
+    border-radius: 0 25px;
+}
+.cate-go{
+   margin: 25px 0;
+}
+.order img{
+    width: 100%;
+}
