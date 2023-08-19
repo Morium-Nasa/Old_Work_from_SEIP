@@ -1,0 +1,236 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(img2/bg5.jpg);
+
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.main{
+	width: 1000px !important;
+	background-image:url(img2/bg.png);
+
+}
+.head{
+	background-image: url('img/VFQF3465.JPG');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 550px;
+
+clip-path: polygon(66% 81%, 100% 60%, 100% 0, 0 0, 0 48%);
+
+}
+
+.image img{
+	width: 100%;
+	height: 300px;
+}
+
+.col-md-4{
+	padding: 0px  !important;
+}
+
+
+/*skills*/
+
+.skill_name 
+{
+ padding-left:10px;
+ width:90px;
+ height:10px;
+ line-height:10px;
+ font-weight:bold;
+ font-size:10px;
+ color:white;
+ clear:both;
+ float:left;
+ border-radius:3px 0px 0px 3px;
+}
+#skill_html
+{
+ background-color:#0e0e0e;
+}
+#skill_css
+{
+ background-color:#0e0e0e;
+}
+#skill_bot
+{
+ background-color:#0e0e0e;
+}
+#skill_java
+{
+ background-color:#0e0e0e;
+}
+#skill_jq
+{
+ background-color:#0e0e0e;
+}
+
+.skillbar_wrapper 
+{
+ float:left;
+ position:relative;
+ display:block;
+ margin-bottom:25px;
+ width:400px;
+ background-color:#E6E6E6;
+ height:10px;
+ border-radius:0px 3px 3px 0px;
+}
+.skillbar_bar 
+{
+ height:10px;
+ width:0px;
+ border-radius:0px 3px 3px 0px;
+}
+#skillbar_html
+{
+ background-color:#3c3c3c;
+}
+#skillbar_css
+{
+ background-color:#3c3c3c;
+}
+#skillbar_bot
+{
+ background-color:#3c3c3c;
+}
+#skillbar_java
+{
+ background-color:#3c3c3c;
+}
+#skillbar_jq
+{
+ background-color:#3c3c3c;
+}
+
+.skill_bar_percent 
+{
+ position:absolute;
+ right:10px;
+ top:0;
+ font-size:12px;
+ height:10px;
+ line-height:10px;
+ color:black;
+}
+
+/*owl carosel*/
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color:white;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+    font-size: 70px;    
+    position: relative;
+    top: -10px;
+}
+.owl-nav button:focus {
+    outline: none;
+}
+
+
+.owl img{
+	width: 220px;
+	height: 165px;
+}
+
+
+/*footer*/
+.right a i{
+	margin-left: 5px;
+	font-size: 16px;
+	color: gray;
+	border:1px solid white;
+	
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	border-radius: 50%;
+	padding-top: 5px;
+	margin-top: 5px;
+
+}
+.right a i:hover{
+	margin-left: 5px;
+	font-size: 16px;
+	color: gray;
+	border:1px solid #080d46;
+	
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	border-radius: 50%;
+	padding-top: 5px;
+	margin-top: 5px;
+
+}
+
+/*contact*/
+.header{
+	background-image: url(img2/contact1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	opacity: 0.6;
+}
+
+.form input{
+	border-radius: 0px !important;
+	background-color: #35363a;
+	color: #8f8b80;
+	margin-bottom: 5px;
+}
+
+.form textarea{
+	background-color: #35363a;
+	color: #8f8b80;
+	width: 455px;
+	height: 200px;
+
+}
+
+.text p{
+	margin-left: 40px;
+}
